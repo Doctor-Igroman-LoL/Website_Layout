@@ -1,0 +1,67 @@
+@import url('font/Montserrat-Bold.ttf');
+@import url('font/Montserrat-Light.ttf');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1366px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 800px;
+	background-image: url('imgs/header.jpg');
+}
+
+.header .logo {
+	margin-left: 98px;
+	margin-top: 63px;
+}
+
+.meny {
+	float: right;
+	margin-right: 213px;
+	margin-top: 67px;
+}
+
+.meny li {
+	float: left;
+	list-style-type: none;
+}
+
+.meny a {
+	color: #8c8c8c;
+	font-size: 14px;
+	line-height: 48px;
+	text-decoration: none;
+	display: block;
+	padding: 0 20px;
+}
+
+.meny a:hover {
+	color: #212121;
+	font-weight: 700;
+	border-bottom: 3px solid black;
+}
+
+.search {
+	float: right;
+    margin-top: 11px;
+}
+
+.text {
+	margin-top: 287px;
+	margin-left: 98px;
+	width: 457px;
+}
+
+.text h3 {
+	
+}
