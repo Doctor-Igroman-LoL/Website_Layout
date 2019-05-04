@@ -1,8 +1,24 @@
-@import url('font/Montserrat-Bold.ttf');
-@import url('font/Montserrat-Light.ttf');
+
+@font-face {
+	font-family: Montserrat; /* Имя шрифта */
+	src: url(font/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Montserrat; /* Имя шрифта */
+	src: url(font/Montserrat-Thin.ttf); /* Путь к файлу со шрифтом */
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Montserrat; /* Имя шрифта */
+	src: url(font/Montserrat-Light.ttf); /* Путь к файлу со шрифтом */
+	font-weight: 300;
+}
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat'
 }
 
 * {
@@ -63,5 +79,12 @@ body {
 }
 
 .text h3 {
-	
+	margin-bottom: 22px;
+	color: #43a047;
+	line-height: 48px;
+}
+
+.text h1 {
+	margin-bottom: 34px;
+	font-weight: 100;
 }
