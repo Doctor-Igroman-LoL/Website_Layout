@@ -88,3 +88,22 @@ body {
 	margin-bottom: 34px;
 	font-weight: 100;
 }
+
+.text p {
+	font-size: 14;
+	margin-bottom: 32px;
+}
+
+.text a {
+	display: block;
+	border-radius: 22px;
+	box-shadow: 0px 2px 4.48px 0.15px rgba(33,33,33,0.35);
+	width: 212px;
+	height: 45px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 45px;
+	font-weight: bold;
+	color: #6c6c6c;
+	background: #ffffff url('imgs/arrow.png') no-repeat 153px 13px;
+}
